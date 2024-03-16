@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Venkat Amar's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home </a></li>
+                    <li><a href="/">About </a></li>
+                    <li><a href="/">Services </a></li>
+                    <li><a href="/">Projects </a></li>
+                    <li><a href="/">Contact me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="left-section">Hi,my name is <span class="purple">Venkat Amar</span>
+                <div>and I am a  </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="butt"><a href="./Gavini Venkat Amar.pdf" download>Download Resume</a></button>
+                    <button class="butt"><a href="https://github.com/venkatamar" target="_blank">Github</a></button>
+                <button class="butt"><a href="https://www.linkedin.com/in/gavini-venkat-amar-aa65822b6/" target="_blank">LinkedIn</a></button>
+            </div>
+            </div>
+            <div class="right-section">
+                <img src="./images/19362653.jpg" alt="Web devloper">
+            </div>
+            
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top image1" src="./images/tictactoe.png" alt="TicTacToe">
+                    <div class="vertical-title">
+                        Tic Tac Toe Game
+                    </div>
+                    <div class="vertical-desc">Developed Basic Tic Tac Toe Game Using HTML, CSS, and JavaScript Created a simple Tic Tac Toe game with clear win/loss conditions displayed to users.Used HTML for structure, CSS for styling, and JavaScript for game logic.Focused on learning core game development concepts and implementing basic functionality.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top image2" src="./images/rockpaperscissors.webp"  alt="rockpaperscissors">
+                    <div class="vertical-title">
+                        Rock Paper Scissors
+                    </div>
+                    <div class="vertical-desc">Built engaging Rock Paper Scissors game using HTML, CSS, and JavaScript. Implemented intuitive interface, accurate win/loss logic, and engaging visuals . Learned valuable front-end development skills and game logic implementation.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top image3" src="./images/weathermonitoring.png"  alt="Weather Monitoring Tool">
+                    <div class="vertical-title">
+                        Weather Monitoring Tool 
+                    </div>
+                    <div class="vertical-desc">Designed and implemented an IoT-based weather monitoring system to collect, analyze, and display real-time weather data. Utilized sensors for measuring temperature, humidity, and atmospheric pressure, and integrated a Node Mcu as the central processing unit.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top image4" src="./images/portfolio.webp" alt="Weather Monitoring Tool">
+                    <div class="vertical-title">
+                        Portfolio 
+                    </div>
+                    <div class="vertical-desc">Developed a responsive portfolio website using HTML, CSS, and JavaScript, showcasing expertise in Computer Science and IoT. Integrated interactive elements and ensured cross-browser compatibility for seamless user experience. Regularly updated to reflect academic achievements and technical skills growth.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class ="footer-first">
+                Venkat Amar's Portfolio
+            </div>
+            <div class ="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    
+                </ul>
+            </div>
+            <div class ="footer-third"></div>
+        </div>
+        <div class="footer-rights">
+           Copyright &copy venkatamarportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Programmer','Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
